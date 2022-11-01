@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    user-select: none;
+}
+.main_bg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to bottom right, #2D57E3, #A4EADF);
+    width: 100vw;
+    height: 100vh;
+}
+.main_mid_container{
+    display: flex;
+    width: 1300px;
+    /* height: 630px; */
+    background: white;
+    border-radius: 10px;
+}
+.btn_section{
+    /* background: brown; */
+    padding: 20px;
+    border-right: 1px solid rgba(128, 128, 128, 0.463);
+}
+.shapes_btn{
+    display: flex;
+    flex-direction: column;
+    /* border-bottom: 1px solid rgba(128, 128, 128, 0.447); */
+}
+.shapes_btn h1{
+    font-size: 22px;
+}
+.shapes_btn button{
+    background: none;
+    border: 0;
+    font-size: 15px;
+    /* background-color: #2D57E3; */
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.shapes_btn button img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+
+.other_shapes{
+    margin-top: 20px;
+}
+.other_shapes h1{
+    font-size: 22px;
+}
+.other_shapes button{
+    background: none;
+    border: 0;
+    font-size: 15px;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+.other_shapes button img{
+    width: 30px;
+    margin-right: 10px;
+}
+.other_shapes input{
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+
+.color_section{
+    margin-top: 10px;
+}
+.color_section h1{
+    font-size: 22px;
+}
+.color_section input{
+    margin-top: 5px;
+}
+
+
+.additional_btns{
+    margin-top: 20px;
+}
+.additional_btns input{
+   display: block;   
+   width:100%;
+   height: 40px;
+   margin-top: 5px;
+   border-radius: 5px;
+   background: none;
+   border: 1px solid rgba(128, 128, 128, 0.579);
+   cursor: pointer;
+   transition: ease-in-out 0.3s;
+}
+.additional_btns :nth-child(2){
+    background-color: #4063d9;
+    color: white;
+    border: 0;
+    margin-bottom: 7px;
+}
+.additional_btns input:hover{
+    background-color: #4063d9;
+    color: white;
+}
+.additional_btns :nth-child(2):hover{
+    background-color: #184aed;
+
+}
+
+.btn_section button:active{
+   color: #184aed;
+}
+
+/* canvas */
+.canvas_section{
+    width: 100%;
+ 
+}
+canvas{
+    /* background-color: #2D57E3; */
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}

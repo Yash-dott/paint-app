@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/6fb7a193c6.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="assists/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="main_bg">
+        <div class="main_mid_container">
+            <div class="btn_section">
+                <div class="shapes_btn">
+                    <h1>Shapes</h1>
+                    <button class="selected_btn" id="Rectangle"><img src="assists/img/rectangular-shape-outline.png" alt=""> Rectangle</button> 
+                    <button class="selected_btn" id="Circle"><img src="assists/img/dry-clean.png" alt=""> Circle</button>
+                    <!-- <button class="selected_btn" id="Triangle"><img src="assists/img/triangle.png" alt=""> Triangle</button> -->
+                </div>
+                <div class="other_shapes">
+                    <h1>Options</h1>
+                    <button class="selected_btn" id="Brush"><img src="assists/img/paint-brush.png" alt=""> Brush</button>
+                    <button class="selected_btn" id="Eraser"><img src="assists/img/eraser.png" alt=""> Eraser</button>
+                    <label for="">
+                        <input type="checkbox" name="" id="color_checkbox">
+                        Fill color
+                    </label>
+                    <input type="range" name="" id="progress_bar" min=".1" max="50" value="1">
+                </div>
+                <div class="color_section">
+                    <h1>Color</h1>
+                    <input type="color" name="" id="color_picker">
+                </div>
+                <div class="additional_btns">
+                    <input type="button" value="Clear canvas" id="clear_canvas_btn">
+                    <input type="button" value="Save as image" id="save_canvas">
+                </div>
+            </div>
+            <div class="canvas_section">
+                <canvas id="canvas"></canvas>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="assists/js/main.js"></script>
+</html>
